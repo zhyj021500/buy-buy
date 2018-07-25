@@ -1,0 +1,41 @@
+{
+  "name": "szhmqd17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.dev.js --progress --port 3008 --open --hot",
+    "build": "webpack --config webpack.config.prod.js --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.3.9",
+    "iview": "^2.14.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.1",
+    "v-distpicker": "^1.0.17",
+    "vue": "^2.5.16",
+    "vue-lazyload": "^1.2.3",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.7.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.2.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
